@@ -24,6 +24,7 @@
             <module>eureka-client-consumer-feign</module>
             <module>eureka-client-provider</module>
             <module>eureka-client-provider2</module>
+            <module>service-zuul</module>
         </modules>
 
         <properties>

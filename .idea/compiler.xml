@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-consumer-feign" />
+        <module name="eureka-client-provider" />
         <module name="eureka-client-consumer-ribbon" />
+        <module name="service-zuul" />
         <module name="eureka-server" />
         <module name="eureka-client-provider2" />
-        <module name="eureka-client-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="eureka-client-provider (1)" options="-parameters" />
       <module name="eureka-client-provider2" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
     </option>
   </component>
 </project>
